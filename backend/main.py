@@ -7,6 +7,9 @@ from pydantic import BaseModel
 # ----------------------------
 # DATABASE CONFIG (SQLite)
 # ----------------------------
+
+import os
+print("Using DB at:", os.path.abspath(DB_FILE))
 DB_FILE = "crm_db.db"
 
 def get_db():
