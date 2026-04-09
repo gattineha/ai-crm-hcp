@@ -1,0 +1,101 @@
+// src/styles.js
+const styles = {
+  container: {
+    padding: "30px",
+    fontFamily: "'Inter', sans-serif",
+    backgroundColor: "#f5f6fa",
+    minHeight: "100vh",
+  },
+  title: {
+    textAlign: "center",
+    fontSize: "2rem",
+    fontWeight: "700",
+    color: "#2f3640",
+    marginBottom: "30px",
+  },
+  layout: {
+    display: "flex",
+    gap: "20px",
+    flexWrap: "wrap",
+  },
+  leftPanel: {
+    flex: 1,
+    minWidth: "320px",
+    backgroundColor: "#ffffff",
+    padding: "20px",
+    borderRadius: "12px",
+    boxShadow: "0 6px 12px rgba(0,0,0,0.1)",
+  },
+  rightPanel: {
+    flex: 1,
+    minWidth: "320px",
+    backgroundColor: "#ffffff",
+    padding: "20px",
+    borderRadius: "12px",
+    boxShadow: "0 6px 12px rgba(0,0,0,0.1)",
+    maxHeight: "80vh",
+    overflowY: "auto",
+  },
+  heading: {
+    fontSize: "1.2rem",
+    fontWeight: "600",
+    marginBottom: "10px",
+    color: "#273c75",
+  },
+  input: {
+    width: "100%",
+    padding: "10px",
+    marginBottom: "10px",
+    borderRadius: "6px",
+    border: "1px solid #dcdde1",
+    fontSize: "0.95rem",
+  },
+  textarea: {
+    width: "100%",
+    padding: "10px",
+    marginBottom: "10px",
+    borderRadius: "6px",
+    border: "1px solid #dcdde1",
+    fontSize: "0.95rem",
+    resize: "vertical",
+  },
+  button: {
+    backgroundColor: "#273c75",
+    color: "#ffffff",
+    padding: "10px 15px",
+    border: "none",
+    borderRadius: "6px",
+    cursor: "pointer",
+    fontWeight: "600",
+    fontSize: "0.95rem",
+  },
+  buttonHover: {
+    backgroundColor: "#192a56",
+  },
+  card: {
+    backgroundColor: "#f1f2f6",
+    padding: "15px",
+    marginBottom: "10px",
+    borderRadius: "10px",
+    boxShadow: "0 2px 6px rgba(0,0,0,0.05)",
+  },
+  cardHeader: {
+    fontWeight: "600",
+    marginBottom: "5px",
+    color: "#353b48",
+  },
+  cardButtons: {
+    marginTop: "10px",
+    display: "flex",
+    gap: "10px",
+  },
+  summaryBox: {
+    backgroundColor: "#dcdde1",
+    padding: "15px",
+    marginTop: "15px",
+    borderRadius: "8px",
+    whiteSpace: "pre-wrap",
+  },
+};
+
+export default styles;
